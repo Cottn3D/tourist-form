@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>	
+    <!-- Carson Schwab/ 8-Feb-2022/ Ex.4-Form practice -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A Web Page</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <div id="topContainer">
+        <figure>
+            <img src="assets/download.png">
+            <figcaption>Small Town</figcaption>
+        </figure>
+        <nav>
+            <ul>
+                <li id="firstLi">Home</li>
+                <li>Activities</li>
+                <li>Food</li>
+                <li>Rest</li>
+                <li>People</li>
+                <li>Feedback</li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Please tell us about your visit:</h1>
+    <hr>
+    <!-- <form action="file:///C:/VAULT/File%20storage/~SCHOOL/RIT/2022%20~Spring/ISTE%20646/iste646/exercise/exercise_4/exercise_4.html" method="get" class="green"> -->
+    <form action="https://people.rit.edu/~cjs3412/iste646/exercise/exercise_4/exercise_4.html" method="get" class="green">
+
+        <br>How many in your group?
+        <input type="number" name="Members" value="0">
+        <br>What date did you visit?
+        <input type="date" name="Date" value="2022-02-21">
+
+        <fieldset>
+            <legend>Favorite Place</legend>
+            <input type="radio" id="baseball" name="Baseball">
+            <label for="baseball">Baseball Field</label><br/>
+            
+            <input type="radio" id="museum" name="Museum">
+            <label for="museum">Museum</label><br/>
+           
+            <input type="radio" id="lui" name="Restaurant">
+            <label for="lui">Luigi's Italian Restaurant</label><br/>
+            
+            <input type="radio" id="moms" name="Moms">
+            <label for="moms">Mom's Hotel</label><br/>
+            
+            <input type="radio" id="hostel" name="Youth">
+            <label for="hostel">The Youth Hostel</label><br/>
+        </fieldset>
+
+        <br>Overall, rate your visit to our small town:<br>
+        0 <input type="range" name="Rating"> 10
+
+        <br><input type="submit">
+    </form>
+</body>
+
+<!-- 
+Logo to the left of the menu  2 
+Horizontal menu with 6 items as shown  2 
+Text (Please tell... ) and horizontal rule <hr/>  2 
+HTML ‘form’ tag  2 
+Text and HTML input tag with type of ‘number’  2 
+Text and HTML input tag with type of ‘date’  2 
+HTML tag ‘fieldset’ with appropriate text  2 
+Radio button group inside field set with appropriate text  2 
+Text and HTML input tag with type of ‘range’  2 
+HTML input tag with submit that when clicked sends all information to this page**  2 -->
+
+</html>
